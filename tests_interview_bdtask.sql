@@ -20,6 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `tests_interview_bdtask`
 --
+DROP DATABASE IF EXISTS `tests_interview_bdtask`;
 CREATE DATABASE IF NOT EXISTS `tests_interview_bdtask` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `tests_interview_bdtask`;
 
