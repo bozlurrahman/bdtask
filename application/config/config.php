@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/bdtask/';
+$config['base_url']	= 'http://localhost/tests/interview/bdtask/';
 error_reporting(E_ALL ^ E_DEPRECATED);
 /*
 |--------------------------------------------------------------------------

@@ -143,8 +143,8 @@ class Blog extends CI_Controller {
         // echo $config['upload_path'];
         $config['allowed_types'] = 'gif|jpg|png';
         $config['max_size'] = '2048'; //in KB
-        $config['max_width'] = '1024'; //in px
-        $config['max_height'] = '768'; //in px
+        // $config['max_width'] = '1024'; //in px
+        // $config['max_height'] = '768'; //in px
 
         $this->load->library('upload', $config);
 

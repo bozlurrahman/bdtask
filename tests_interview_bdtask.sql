@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `my_blog_db`
+-- Database: `tests_interview_bdtask`
 --
-CREATE DATABASE IF NOT EXISTS `my_blog_db` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `my_blog_db`;
+CREATE DATABASE IF NOT EXISTS `tests_interview_bdtask` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `tests_interview_bdtask`;
 
 -- --------------------------------------------------------
 
@@ -100,10 +100,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `email`, `username`, `password`, `user_type`) VALUES
-(1, 'admin@user.com', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'admin'),
-(2, 'bozlurrahman.cmt@gmail.com', 'user', '21232f297a57a5a743894a0e4a801fc3', 'user'),
-(3, 'author@gmail.com', 'author', '21232f297a57a5a743894a0e4a801fc3', 'author'),
-(4, 'admin@gmail.com', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'admin');
+(1, 'admin@user.com', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'admin');
 
 --
 -- Indexes for dumped tables
